@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TransactionAssignmentApp.Models.Transaction>
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    if (TempData["newRec"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Success!</strong> Your transaction is recorded.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Credit</th>
+                <th>Debit</th>
+                <th>Running  Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Description</td>
+                        <td>@item.Credit</td>
+                        <td>@item.Debit</td>
+                        <td>@item.Balance</td>
+                    </tr>
+                }
+            }
+            
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-action="NewTransaction">+ Add Transaction</a>
+</div>

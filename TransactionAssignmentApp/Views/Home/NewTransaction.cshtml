@@ -1,0 +1,48 @@
+﻿@model TransactionAssignmentApp.Models.Transaction
+@{
+    ViewData["Title"] = "NewTransaction";
+}
+@{
+    if (ViewBag.lowBal != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Balance Low!</strong> You can't make this purchase.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+<h1>NewTransaction</h1>
+@{
+    if (ViewBag.empty != null)
+    {
+        <span class="text-danger">Mandatory fields(*) can't be empty.</span>
+    }
+}
+<form asp-action="NewTransaction" class="col-md-4">
+    <div class="form-group">
+        <label class="form-label">Transaction Type*</label>
+        <select name="type" class="form-control">
+            <option value=null>Select Transaction Type</option>
+            <option value="Credit">Credit</option>
+            <option value="Debit">Debit</option>
+        </select>
+    </div>
+    <br/>
+    <div class="form-group">
+        <label class="form-label">Amount*</label>
+        <input type="number" name="amount" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label class="form-label">Description*</label>
+        <input type="text" name="description" class="form-control" />
+    </div>
+    <br />
+    <input type="submit" value="Submit" class="btn btn-success" />
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

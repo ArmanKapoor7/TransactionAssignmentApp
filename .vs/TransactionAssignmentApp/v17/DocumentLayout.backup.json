@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ASP.NET Core\\TransactionAssignmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|g:\\asp.net core\\transactionassignmentapp\\transactionassignmentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|solutionrelative:transactionassignmentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|g:\\asp.net core\\transactionassignmentapp\\transactionassignmentapp\\views\\home\\newtransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|solutionrelative:transactionassignmentapp\\views\\home\\newtransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|g:\\asp.net core\\transactionassignmentapp\\transactionassignmentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|solutionrelative:transactionassignmentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|g:\\asp.net core\\transactionassignmentapp\\transactionassignmentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|solutionrelative:transactionassignmentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|g:\\asp.net core\\transactionassignmentapp\\transactionassignmentapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A69AB96-7B2F-4927-A34B-6347B594872D}|TransactionAssignmentApp\\TransactionAssignmentApp.csproj|solutionrelative:transactionassignmentapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 179,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TransactionAssignmentApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TransactionAssignmentApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T06:54:21.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewTransaction.cshtml",
+              "DocumentMoniker": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Home\\NewTransaction.cshtml",
+              "RelativeDocumentMoniker": "TransactionAssignmentApp\\Views\\Home\\NewTransaction.cshtml",
+              "ToolTip": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Home\\NewTransaction.cshtml",
+              "RelativeToolTip": "TransactionAssignmentApp\\Views\\Home\\NewTransaction.cshtml",
+              "ViewState": "AgIAAAsAAABAMzMzMzMbwBYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T05:00:03.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TransactionAssignmentApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TransactionAssignmentApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T04:51:09.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TransactionAssignmentApp\\Controllers\\HomeController.cs",
+              "ToolTip": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TransactionAssignmentApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:49:26.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "TransactionAssignmentApp\\Models\\Transaction.cs",
+              "ToolTip": "G:\\ASP.NET Core\\TransactionAssignmentApp\\TransactionAssignmentApp\\Models\\Transaction.cs",
+              "RelativeToolTip": "TransactionAssignmentApp\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:48:20.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 14,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
